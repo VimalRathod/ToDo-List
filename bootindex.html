@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>ToDo List</title>
+    <link rel="stylesheet" href="bootstyle.css">
+  </head>
+  <body>
+
+    <div class="todo-Navbar">
+      <p class= "navTodo">Todo List Maker</p>
+    </div>
+
+    <div class="mainpage">
+      <form class="enterForm"  method="post">
+        <div>
+          <input type="text" name="EnterTodo" placeholder="Enter Some Text" id = "memoText" onkeypress="return runScript(event)">
+          <div class = "addButton" onclick="addMemo()">Add Memo</div>
+          <!-- *********Adding COlor Extenstion ********* -->
+          <input type="color" id = "chosen-color">
+        </div>
+      </form>
+      <div id="Memos">
+      </div>
+    </div>
+    <div class="footer">
+      <div class="footer-content">
+
+      </div>
+    </div>
+    <script type="text/javascript" src="scriptFile.js">
+    </script>
+  </body>
+</html>

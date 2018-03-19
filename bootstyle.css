@@ -1,0 +1,104 @@
+body{
+  margin:0px;
+  background-color:#ddd;
+}
+
+.Navbar{
+  width:100%;
+  background-color: blue;
+  overflow: hidden;
+}
+
+p.navheader{
+  margin:0px;
+  font-size: 25px;
+  color:#fff;
+  padding:10px;
+}
+
+
+.mainpage{
+  overflow: hidden;
+  width: 100%;
+  margin: 20px 15px;
+  margin-left: 0px;
+  height: 100%;
+  float: left;
+}
+
+.todo-Navbar{
+  overflow: hidden;
+  background-color: green;
+  width: 100%;
+}
+
+p.navTodo{
+  font-size: 28px;
+  padding: 12px 20px;
+}
+
+p{
+  margin:0px;
+  margin-top: 9px;
+  margin-right: 10px;
+  margin-left: 10px;
+  font-size: 25px;
+  color: white;
+  float: left;
+}
+
+input[type="text"]{
+  margin: 5px;
+  padding:10px;
+  padding-right: 750px;
+  font-size: 18px;
+}
+
+input[type="text"]:hover{
+  box-shadow: 1px 3px 10px #ddd;
+}
+
+
+div.addButton{
+  display: inline;
+  padding:10px;
+  width:90px;
+  color:white;
+  background-color: green;
+}
+
+div.addButton:hover{
+  box-shadow: 1px 2px 5px black;
+}
+
+
+
+div.memo-bar{
+  overflow: hidden;
+  display: block;
+  width: 90%;
+  margin:10px 8px;
+  color: white;
+  font-size: 25px;
+  background-color: black;
+}
+
+.close{
+  float:right;
+}
+
+.close:hover{
+  cursor: pointer;
+  border-bottom: 1px solid red;
+  color:red;
+}
+
+
+.footer{
+  position: absolute;
+  bottom:0;
+  border-top: 1px solid black;
+  background: blue;
+  height:50px;
+  width:100%;
+}
